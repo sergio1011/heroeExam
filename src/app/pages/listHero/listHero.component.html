@@ -1,0 +1,84 @@
+@defer(when cargaListAllHeroes){
+<div class="grid bm-8">
+  <div class="d-flex justify-content-center flex-column align-items-center">
+    <h2 class="mt-2">Listado de SuperHeroes</h2>
+
+    <!-- Buscador -->
+    <app-searchBox
+      (value)="uniqueSearch($event)"
+      placeholder="Busca un superheroe">
+    </app-searchBox>
+  </div>
+
+  <!-- Lista paginada -->
+  <ul class="list-group">
+    @if(heroes.length !==1 ){
+      @for (hero of heroes; track $index) {
+        <li class="list-group-item">
+          <app-list [hero]="hero"></app-list>
+        </li>
+      }
+    }@else {
+      <app-list [hero]="heroes[0]"></app-list>
+    }
+  </ul>
+
+</div>
+
+<!-- Pagination -->
+<div class="d-flex justify-content-center">
+  <div>
+    <nav aria-label="Page navigation example" class="mt-2">
+      <ul class="pagination">
+        <li class="page-item">
+          <a
+            class="page-link"
+            href="#"
+            (click)="prevPage(); $event.preventDefault()"
+            [class.disabled]="currentPage === 1"
+            >Previous</a
+          >
+        </li>
+        <ng-container *ngFor="let page of pageNumbers">
+          <li class="page-item">
+            <a
+              class="page-link"
+              href="#"
+              (click)="pageSelected(page); $event.preventDefault()"
+              >{{ page }}</a
+            >
+          </li>
+        </ng-container>
+        <li class="page-item">
+          <a
+            class="page-link"
+            href="#"
+            (click)="nextPage(); $event.preventDefault()"
+            [class.disabled]="heroes.length < itemsPage"
+            >Next</a
+          >
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <div>
+    <a routerLink="/add">
+      <button type="submit" class="btn btn-primary m-2">Añadir</button>
+    </a>
+  </div>
+</div>
+
+} @placeholder {
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col">
+        <img
+          class="img-fluid w-100 vh-100"
+          alt="loading..."
+          src="https://cdn.dribbble.com/users/121337/screenshots/1024835/loading2.gif"
+        />
+      </div>
+    </div>
+  </div>
+
+}

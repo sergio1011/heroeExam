@@ -1,0 +1,14 @@
+<strong>Nombre:</strong> {{ hero.superhero }} <br />
+<strong>Alter Ego:</strong> {{ hero.alter_ego }} <br />
+<strong>Primera Aparición:</strong> {{ hero.first_appearance }} <br />
+
+<a routerLink="/update/{{ hero.id }}">
+  <button type="submit" class="btn btn-primary m-2">Modificar</button>
+</a>
+<button
+  type="submit"
+  class="btn btn-primary m-1"
+  (click)="openConfirmationModal(hero.id)"
+>
+  Eliminar
+</button>

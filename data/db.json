@@ -1,0 +1,118 @@
+{
+  "heroes": [
+    {
+      "id": "dc-batman",
+      "superhero": "Batman",
+      "alter_ego": "Bruce Wayne",
+      "first_appearance": "Detective Comics #27"
+    },
+    {
+      "id": "dc-superman",
+      "superhero": "Superman",
+      "alter_ego": "Kal-El",
+      "first_appearance": "Action Comics #1"
+    },
+    {
+      "id": "dc-flash",
+      "superhero": "Flash",
+      "alter_ego": "Jay Garrick",
+      "first_appearance": "Flash Comics #1"
+    },
+    {
+      "id": "dc-green",
+      "superhero": "Green Lantern",
+      "alter_ego": "Alan Scott",
+      "first_appearance": "All-American Comics #16"
+    },
+    {
+      "id": "dc-arrow",
+      "superhero": "Green Arrow",
+      "alter_ego": "Oliver Queen",
+      "first_appearance": "More Fun Comics #73"
+    },
+    {
+      "id": "dc-wonder",
+      "superhero": "Wonder Woman",
+      "alter_ego": "Princess Diana",
+      "first_appearance": "All Star Comics #8"
+    },
+    {
+      "id": "dc-martian",
+      "superhero": "Martian Manhunter",
+      "alter_ego": "J\"onn J\"onzz",
+      "first_appearance": "Detective Comics #225"
+    },
+    {
+      "id": "dc-robin",
+      "superhero": "Robin/Nightwing",
+      "alter_ego": "Dick Grayson",
+      "first_appearance": "Detective Comics #38"
+    },
+    {
+      "id": "dc-blue",
+      "superhero": "Blue Beetle",
+      "alter_ego": "Dan Garret",
+      "first_appearance": "Mystery Men Comics #1"
+    },
+    {
+      "id": "dc-black",
+      "superhero": "Black Canary",
+      "alter_ego": "Dinah Drake",
+      "first_appearance": "Flash Comics #86"
+    },
+    {
+      "id": "marvel-spider",
+      "superhero": "Spider Man",
+      "alter_ego": "Peter Parker",
+      "first_appearance": "Amazing Fantasy #15"
+    },
+    {
+      "id": "marvel-captain",
+      "superhero": "Captain America",
+      "alter_ego": "Steve Rogers",
+      "first_appearance": "Captain America Comics #1"
+    },
+    {
+      "id": "marvel-iron",
+      "superhero": "Iron Man",
+      "alter_ego": "Tony Stark",
+      "first_appearance": "Tales of Suspense #39"
+    },
+    {
+      "id": "marvel-thor",
+      "superhero": "Thor",
+      "alter_ego": "Thor Odinson",
+      "first_appearance": "Journey into Myster #83"
+    },
+    {
+      "id": "marvel-hulk",
+      "superhero": "Hulk",
+      "alter_ego": "Bruce Banner",
+      "first_appearance": "The Incredible Hulk #1"
+    },
+    {
+      "id": "marvel-wolverine",
+      "superhero": "Wolverine",
+      "alter_ego": "James Howlett",
+      "first_appearance": "The Incredible Hulk #180"
+    },
+    {
+      "id": "marvel-daredevil",
+      "superhero": "Daredevil",
+      "alter_ego": "Matthew Michael Murdock",
+      "first_appearance": "Daredevil #1"
+    },
+    {
+      "id": "marvel-hawkeye",
+      "superhero": "Hawkeye",
+      "alter_ego": "Clinton Francis Barton",
+      "first_appearance": "Tales of Suspense #57"
+    },
+    {
+      "id": "marvel-cyclops",
+      "superhero": "Cyclops",
+      "alter_ego": "Scott Summers",
+      "first_appearance": "X-Men #1"
+    }
+  ]
+}
